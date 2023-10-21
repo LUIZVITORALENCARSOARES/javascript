@@ -27,3 +27,83 @@
     n1.toFixed(2)
     n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 -->
+
+<!-- Aritmética
+
+    +: soma
+    -: subtração
+    *: multiplicação
+    /: divisão
+    %: resto da divisão
+    **: potência
+
+    Ordem de Precedência (de cima para baixo)
+    
+    Aritméticos: (), **, /, ...
+    Relacionais: >, <, >=, ...
+    Lógicos:
+        !: não
+        &&: e
+        ||: ou
+
+    Atribuição Simples
+    
+    var a = 5 + 3          8
+    var b = a % 5          3
+    var c = 5 * b ** 2    45
+    var d = 10 - a / 2     6
+    var e = 6 * 2 / d      2
+    var f = b % e + 4 / e  3
+
+    Auto-atribuições
+
+    var n = 3
+    n = n + 4           n += 4
+    n = n - 5           n -= 5
+    n = n * 4           n *= 4
+    n = n / 2           n /= 2
+    n = n ** 2          n **= 2
+    n = n % 5           n %= 5
+
+    Incremento
+
+    var x = 5
+    x = x + 1           x ++
+    x = x - 1           x --
+
+    Relacionais
+
+    >: maior
+    <: menor
+    >=: maior ou igual
+    <=: menor ou igual
+    ==: igual
+    !=: diferente
+
+    Lógicos
+
+    !: negação
+        true -> false (não é verdadeiro)
+        false -> true (não é falso)
+    &&: conjunção (e)
+        true && true -> true
+        true && false -> false
+        false && true -> false
+        false && false -> false
+    ||: disjunção (ou)
+        true || true -> true
+        true || false -> true
+        false || true -> true
+        false || false -> false
+
+    Exemplos
+        idade >= 15 && <= 17  // a idade está entre 15 e 17?
+        estado == 'RJ' || estado == 'SP'  // o estado é RJ ou SP?
+        salário > 1500 && sexo != 'M'  // o salário é acima de 1500 e não é homem?
+
+    Ternário
+
+    teste ? true : false
+    Exemplo:
+        média >= 7.0?"Aprovado":"Reprovado"
+-->
